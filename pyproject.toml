@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qc101"
+version = "0.1.0"
+description = "Learn Quantum Computing for backend engineers"
+authors = ["Nasfame <laciferin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qiskit = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
